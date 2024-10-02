@@ -26,8 +26,8 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-from base_api.base_api_requests import BaseRequests
-from base_api.base_api_session import BaseSession
+from base_api_requests import BaseRequests
+from base_api_session import BaseSession
 
 __all__ = ['BaseRequests',
            'BaseSession',

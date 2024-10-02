@@ -26,7 +26,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-from nomi.api.base_api.base_api_session import BaseSession
+from base_api_session import BaseSession
 
 class BaseRequests:
     def __init__(self, session: BaseSession) -> None:
