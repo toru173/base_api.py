@@ -28,7 +28,9 @@
 
 from .base_api_requests import BaseRequests
 from .base_api_session import BaseSession
+from .json_to_object import json_to_object
 
 __all__ = ['BaseRequests',
            'BaseSession',
+           'json_to_object'
         ]
